@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-19)
+## Unreleased (2025-06-20)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`cb4c595`](https://github.com/stdlib-js/stdlib/commit/cb4c595622129c9701d28a9523ccb7453b792f84) - **refactor:** improve type specificity _(by Athan Reines)_
 -   [`28db711`](https://github.com/stdlib-js/stdlib/commit/28db71106c528bfe293ece4c259931b9366f4550) - **docs:** update parameter description _(by Athan Reines)_
 -   [`66ff6f9`](https://github.com/stdlib-js/stdlib/commit/66ff6f9681d996e8aedd08dff05b81b431040057) - **docs:** fix missing period _(by Athan Reines)_
 -   [`dac16e4`](https://github.com/stdlib-js/stdlib/commit/dac16e4815d502b3f54217d98c3335fdc0b629fc) - **fix:** make fields optional _(by Athan Reines)_
