@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@esm/index.mjs';
+import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@v0.1.0-esm/index.mjs';
 ```
 
 #### structFactory( dtype )
@@ -104,7 +104,7 @@ The function supports the following parameters:
 import resolveEnum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternative-resolve-enum@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@esm/index.mjs';
+import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@v0.1.0-esm/index.mjs';
 
 var Struct = structFactory( 'float64' );
 var results = new Struct({
