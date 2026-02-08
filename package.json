@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-ztest-one-sample-results-struct-factory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create a new struct constructor tailored to a specified floating-point data type.",
   "license": "Apache-2.0",
   "author": {
@@ -37,20 +37,20 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main"
+    "@stdlib/dstructs-struct": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-float32": "^0.2.2",
-    "@stdlib/array-float64": "^0.2.2",
-    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/array-float32": "^0.2.3",
+    "@stdlib/array-float64": "^0.2.3",
+    "@stdlib/assert-is-function": "^0.2.3",
     "@stdlib/assert-is-same-float32array": "^0.2.2",
     "@stdlib/assert-is-same-float64array": "^0.2.2",
-    "@stdlib/number-float64-base-to-float32": "^0.2.2",
-    "@stdlib/stats-base-ztest-alternative-resolve-enum": "^0.1.0",
+    "@stdlib/number-float64-base-to-float32": "^0.2.3",
+    "@stdlib/stats-base-ztest-alternative-resolve-enum": "^0.0.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
