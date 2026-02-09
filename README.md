@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ztest-one-sample-results-struct-factory/tags). For example,
+
+```javascript
 import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@v0.1.1-deno/mod.js';
 ```
 
@@ -99,7 +104,7 @@ The function supports the following parameters:
 import resolveEnum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternative-resolve-enum@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@v0.1.1-deno/mod.js';
+import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@deno/mod.js';
 
 var Struct = structFactory( 'float64' );
 var results = new Struct({
