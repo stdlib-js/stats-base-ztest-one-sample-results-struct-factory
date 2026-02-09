@@ -45,19 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-ztest-one-sample-results-struct-factory
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ztest-one-sample-results-struct-factory/tags). For example,
-
-```javascript
-import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@v0.1.0-deno/mod.js';
+var structFactory = require( '@stdlib/stats-base-ztest-one-sample-results-struct-factory' );
 ```
 
 #### structFactory( dtype )
@@ -101,10 +114,10 @@ The function supports the following parameters:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import resolveEnum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternative-resolve-enum@deno/mod.js';
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-struct-factory@deno/mod.js';
+var resolveEnum = require( '@stdlib/stats-base-ztest-alternative-resolve-enum' );
+var Float64Array = require( '@stdlib/array-float64' );
+var Float32Array = require( '@stdlib/array-float32' );
+var structFactory = require( '@stdlib/stats-base-ztest-one-sample-results-struct-factory' );
 
 var Struct = structFactory( 'float64' );
 var results = new Struct({
@@ -170,7 +183,7 @@ console.log( str );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -200,8 +213,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-ztest-one-sample-results-struct-factory.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-ztest-one-sample-results-struct-factory
 
-[test-image]: https://github.com/stdlib-js/stats-base-ztest-one-sample-results-struct-factory/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-base-ztest-one-sample-results-struct-factory/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-base-ztest-one-sample-results-struct-factory/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/stats-base-ztest-one-sample-results-struct-factory/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-ztest-one-sample-results-struct-factory/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-ztest-one-sample-results-struct-factory?branch=main
@@ -233,7 +246,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-ztest-one-sample-results-struct-factory/main/LICENSE
 
-[@stdlib/dstructs/struct]: https://github.com/stdlib-js/dstructs-struct/tree/deno
+[@stdlib/dstructs/struct]: https://github.com/stdlib-js/dstructs-struct
 
 </section>
 
