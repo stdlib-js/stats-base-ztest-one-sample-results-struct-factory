@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/dstructs-struct": "^0.1.0"
+    "@stdlib/dstructs-struct": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-float32": "^0.2.3",
     "@stdlib/array-float64": "^0.2.3",
     "@stdlib/assert-is-function": "^0.2.3",
-    "@stdlib/assert-is-same-float32array": "^0.2.2",
-    "@stdlib/assert-is-same-float64array": "^0.2.2",
+    "@stdlib/assert-is-same-float32array": "^0.2.3",
+    "@stdlib/assert-is-same-float64array": "^0.2.3",
     "@stdlib/number-float64-base-to-float32": "^0.2.3",
     "@stdlib/stats-base-ztest-alternative-resolve-enum": "^0.0.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
