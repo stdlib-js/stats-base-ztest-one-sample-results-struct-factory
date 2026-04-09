@@ -1,0 +1,5 @@
+"use strict";var a=function(e,t){return function(){return t||e((t={exports:{}}).exports,t),t.exports}};var s=a(function(l,n){
+var i=require('@stdlib/dstructs-struct/dist');function o(e){var t=[{name:"rejected",description:"boolean indicating whether the null hypothesis was rejected",type:"bool",castingMode:"none"},{name:"alternative",description:"alternative hypothesis",type:"int8",castingMode:"none"},{name:"alpha",description:"significance level",type:e,castingMode:"mostly-safe"},{name:"pValue",description:"p-value",type:e,castingMode:"mostly-safe"},{name:"statistic",description:"test statistic",type:e,castingMode:"mostly-safe"},{name:"ci",description:"confidence interval",type:e,length:2,castingMode:"mostly-safe"},{name:"nullValue",description:"null value",type:e,castingMode:"mostly-safe"},{name:"sd",description:"standard error of the mean",type:e,castingMode:"mostly-safe"}];return i(t)}n.exports=o
+});var r=s();module.exports=r;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
